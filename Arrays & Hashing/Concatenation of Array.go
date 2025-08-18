@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // Given an integer array nums of length n, you want to create an array ans of length 2n where ans[i] == nums[i] and ans[i + n] == nums[i] for 0 <= i < n (0-indexed).
 
 // Specifically, ans is the concatenation of two nums arrays.
@@ -31,9 +29,4 @@ func getConcatenation(nums []int) []int {
 		result[i], result[size+i] = num, num
 	}
 	return result
-}
-
-func main() {
-	fmt.Println(getConcatenation([]int{1, 2, 1}))
-	fmt.Println(getConcatenation([]int{1, 3, 2, 1}))
 }
