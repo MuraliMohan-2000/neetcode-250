@@ -17,9 +17,13 @@ func main() {
 	fmt.Println(isAnagram("anagram", "nagaram"))
 	fmt.Println(isAnagram("rat", "car"))
 
-	//neetcode -4
+	//neetcode-4
 	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9))
 	fmt.Println(twoSum([]int{3, 2, 4}, 6))
 	fmt.Println(twoSum([]int{3, 3}, 6))
+
+	//neetcode-5
+	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"}))
+	fmt.Println(longestCommonPrefix([]string{"dog", "racecar", "car"}))
 
 }
