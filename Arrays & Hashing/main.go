@@ -35,4 +35,8 @@ func main() {
 	fmt.Println(removeElement([]int{3, 2, 2, 3}, 3))
 	fmt.Println(removeElement([]int{0, 1, 2, 2, 3, 0, 4, 2}, 2))
 
+	//neetcode-8
+	fmt.Println(majorityElement([]int{3, 2, 3}))
+	fmt.Println(majorityElement([]int{2, 2, 1, 1, 1, 2, 2}))
+
 }
