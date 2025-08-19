@@ -26,4 +26,9 @@ func main() {
 	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"}))
 	fmt.Println(longestCommonPrefix([]string{"dog", "racecar", "car"}))
 
+	//neetcode-6
+	fmt.Println(groupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}))
+	fmt.Println(groupAnagrams([]string{""}))
+	fmt.Println(groupAnagrams([]string{"a"}))
+
 }

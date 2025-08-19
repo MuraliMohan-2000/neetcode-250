@@ -15,20 +15,14 @@ package main
 // Explanation: There is no common prefix among the input strings.
 
 func longestCommonPrefix(strs []string) string {
-
 	res := []byte{}
-
 	for i := 0; i < len(strs[0]); i++ {
-
 		for _, s := range strs {
 			if i == len(s) || strs[0][i] != s[i] {
 				return string(res)
 			}
 		}
-
 		res = append(res, strs[0][i])
 	}
-
 	return string(res)
-
 }
