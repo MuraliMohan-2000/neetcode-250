@@ -98,4 +98,9 @@ func main() {
 	decodedStr := encoderAndDecoder.decode(encodedStr)
 	fmt.Println(decodedStr)
 
+	//sample prefix sum method
+	fmt.Println("---------------------sample prefix-sum--------------------")
+	rangeSummer := ConstructorRangeSums([]int{2, 4, -3, 5})
+	fmt.Println(rangeSummer.RangeSum(1, 3))
+
 }
