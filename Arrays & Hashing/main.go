@@ -85,4 +85,9 @@ func main() {
 	fmt.Println(sortColorsArr1)
 	fmt.Println(sortColorsArr2)
 
+	//neetcode-13
+	fmt.Println("---------------------neetcode-13--------------------")
+	fmt.Println(topKFrequent([]int{1, 1, 1, 2, 2, 3}, 2))
+	fmt.Println(topKFrequent([]int{1}, 1))
+
 }
