@@ -61,4 +61,8 @@ func main() {
 	myHashMap.remove(2) // remove the mapping for 2, The map is now [[1,1]]
 	myHashMap.get(2)    // return -1 (i.e., not found), The map is now [[1,1]]
 
+	//neetcode-11
+	fmt.Println(sortArray([]int{5, 2, 3, 1}))
+	fmt.Println(sortArray([]int{5, 1, 1, 2, 0, 0}))
+
 }
