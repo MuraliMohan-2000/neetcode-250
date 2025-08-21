@@ -90,4 +90,12 @@ func main() {
 	fmt.Println(topKFrequent([]int{1, 1, 1, 2, 2, 3}, 2))
 	fmt.Println(topKFrequent([]int{1}, 1))
 
+	//neetcode-14
+	fmt.Println("---------------------neetcode-14--------------------")
+	encoderAndDecoder := Solution{}
+	encodedStr := encoderAndDecoder.encode([]string{"murali", "mohan"})
+	fmt.Println(encodedStr)
+	decodedStr := encoderAndDecoder.decode(encodedStr)
+	fmt.Println(decodedStr)
+
 }
